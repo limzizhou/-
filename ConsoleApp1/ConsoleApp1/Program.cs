@@ -340,6 +340,7 @@ Person person1 = new Person();
 person1.height = 169.5;
 person1.age = 15;
 person1.name = "林某";
+person1.Sayhi();
 
 Person person2 = new Person();
 person2.height = 171.5;

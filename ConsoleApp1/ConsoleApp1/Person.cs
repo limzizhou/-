@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 namespace Animal
 {
     class Person
@@ -9,7 +13,7 @@ namespace Animal
 
         public void Sayhi()
         {
-            Console.WriteLine("age");
+            Console.WriteLine("你好啊我叫" + name);
         }
 
     }
