@@ -253,6 +253,7 @@ System.Console.WriteLine(num1 + num2);
 
 // 猜数字游戏
 
+/*
 int guess = 0;
 int Key = 100;
 int limit = 1;
@@ -282,4 +283,20 @@ while (guess != Key && limit != 5)
     }
 
 }
+*/
 
+// for 迴圈
+
+/*
+int i = 1;
+while (i <= 5)
+{
+    System.Console.WriteLine(i);
+    i++;
+}
+*/
+
+for(int i = 1; i <= 5; i++)
+{
+    System.Console.WriteLine(i);
+}
