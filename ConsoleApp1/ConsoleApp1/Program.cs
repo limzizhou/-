@@ -332,6 +332,7 @@ System.Console.WriteLine(nums[0 , 1]);
 
 //class类别  object 物件 
 //namespace using
+// method 方法
 using Animal;
 using System;
 
