@@ -295,8 +295,35 @@ while (i <= 5)
     i++;
 }
 */
-
-for(int i = 1; i <= 5; i++)
+/*
+for (int i = 1; i <= 5; i++)
 {
     System.Console.WriteLine(i);
 }
+*/
+
+/*
+int[] nums = {1314, 87, 520, 666, 8964, 785, 12231};
+
+for (int i = 0; i < nums.Length; i++)
+{
+    System.Console.WriteLine(nums[i]);
+}
+*/
+
+// 二维阵列
+// row 横排
+//coluwn 直排
+
+int[,] nums = {
+    { 1, 2, 3 },
+    { 4, 5, 6 },
+    { 7, 8, 9 }
+};
+
+int[,] num = new int[3, 4];
+num[0,0] = 3;
+num[0,1] = 4;
+
+System.Console.WriteLine(num[0,1]);
+System.Console.WriteLine(nums[0 , 1]);
