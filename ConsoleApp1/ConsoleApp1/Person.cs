@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1
+﻿class Person
 {
-    internal class Person
-    {
-    }
+    public double height;
+    public int age;
+    public string name;
 }

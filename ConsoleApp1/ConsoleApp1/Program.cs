@@ -315,6 +315,7 @@ for (int i = 0; i < nums.Length; i++)
 // row 横排
 //coluwn 直排
 
+/*
 int[,] nums = {
     { 1, 2, 3 },
     { 4, 5, 6 },
@@ -325,5 +326,21 @@ int[,] num = new int[3, 4];
 num[0,0] = 3;
 num[0,1] = 4;
 
-System.Console.WriteLine(num[0,1]);
+System.Console.WriteLine(num[0, 1]);
 System.Console.WriteLine(nums[0 , 1]);
+*/
+
+//class类别  object 物件 
+
+Person person1 = new Person();
+person1.height = 169.5;
+person1.age = 15;
+person1.name = "林某";
+
+Person person2 = new Person();
+person2.height = 171.5;
+person2.age = 15;
+person2.name = "陈某";
+
+System.Console.WriteLine(person1.name);
+System.Console.WriteLine(person2.age);
