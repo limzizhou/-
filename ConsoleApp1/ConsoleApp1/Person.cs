@@ -1,6 +1,15 @@
-﻿class Person
+﻿namespace Animal
 {
-    public double height;
-    public int age;
-    public string name;
+    class Person
+    {
+        public double height;
+        public int age;
+        public string name;
+    }
 }
+
+namespace house
+{
+
+}
+

@@ -331,6 +331,9 @@ System.Console.WriteLine(nums[0 , 1]);
 */
 
 //class类别  object 物件 
+//namespace using
+using Animal;
+using System;
 
 Person person1 = new Person();
 person1.height = 169.5;
@@ -342,5 +345,5 @@ person2.height = 171.5;
 person2.age = 15;
 person2.name = "陈某";
 
-System.Console.WriteLine(person1.name);
-System.Console.WriteLine(person2.age);
+Console.WriteLine(person1.name);
+Console.WriteLine(person2.age);
