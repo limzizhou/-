@@ -16,6 +16,18 @@ namespace Animal
             Console.WriteLine("你好啊我叫" + name);
         }
 
+        public bool IsAdult()
+        {
+            if (age >= 18)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
 }
 
