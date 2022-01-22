@@ -13,9 +13,11 @@ namespace ConsoleApp1
         public string name;
 
 
-        public Person2(string qq)
+        public Person2(double b, int a, string n)
         {
-            Console.WriteLine("创建成功" + qq);
+            height = b;
+            age = a;
+            name = n;
         }
     }
 }
