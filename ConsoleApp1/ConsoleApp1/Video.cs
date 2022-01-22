@@ -19,5 +19,12 @@ namespace ConsoleApp1
             this.author = author;
             this.type = type;
         }
+
+        public string Type
+        {
+            get { return type; }
+            set { }
+        }
+
     }
 }
