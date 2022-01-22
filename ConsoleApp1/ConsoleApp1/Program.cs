@@ -334,6 +334,7 @@ System.Console.WriteLine(nums[0 , 1]);
 //namespace using
 // method 方法
 //main 方法
+// Constructor 建构方法
 using Animal;
 using System;
 namespace ConsoleApp1
@@ -343,6 +344,8 @@ namespace ConsoleApp1
         static void Main()
         {
             Console.WriteLine("你好");
+            Person person = new Person();
+
             //Person person1 = new Person();
             //person1.height = 169.5;
             //person1.age = 15;
