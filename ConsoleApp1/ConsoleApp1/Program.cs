@@ -384,17 +384,12 @@ namespace ConsoleApp1
             
 
             Person2 person1 = new Person2(169.5,15,"林某");
-            person1.height = 169.5;
-            person1.age = 15;
-            person1.name = "林某";
-            
-
-
             Person2 person2 = new Person2(171.5,18,"陈某");
-            person2.height = 171.5;
-            person2.age = 18;
-            person2.name = "陈某";
-            
+           
+            Console.WriteLine(person1.name);
+            Console.WriteLine(person1.age);
+            Console.WriteLine(person2.name);
+            Console.WriteLine(person2.age);
 
 
         }

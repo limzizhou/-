@@ -13,11 +13,11 @@ namespace ConsoleApp1
         public string name;
 
 
-        public Person2(double b, int a, string n)
+        public Person2(double height, int age, string name)
         {
-            height = b;
-            age = a;
-            name = n;
+            this.height = height;
+            this.age = age;
+            this.name = name;
         }
     }
 }
