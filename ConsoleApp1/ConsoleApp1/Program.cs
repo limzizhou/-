@@ -347,5 +347,5 @@ person2.height = 171.5;
 person2.age = 15;
 person2.name = "陈某";
 
-Console.WriteLine(person1.name);
-Console.WriteLine(person2.age);
+//Console.WriteLine(person1.name);
+//Console.WriteLine(person2.age);
