@@ -333,6 +333,7 @@ System.Console.WriteLine(nums[0 , 1]);
 //class类别  object 物件 
 //namespace using
 // method 方法
+//main 方法
 using Animal;
 using System;
 
@@ -341,8 +342,9 @@ person1.height = 169.5;
 person1.age = 15;
 person1.name = "林某";
 //person1.Sayhi();
-person1.IsAdult();
-Console.WriteLine(person1.IsAdult());
+//person1.IsAdult();
+//Console.WriteLine(person1.IsAdult());
+Console.WriteLine(person1.Add( 2, 3 ,"qwd"));
 
 
 Person person2 = new Person();
@@ -350,8 +352,9 @@ person2.height = 171.5;
 person2.age = 18;
 person2.name = "陈某";
 //person2.Sayhi();
-person2.IsAdult();
-Console.WriteLine(person2.IsAdult());
+//person2.IsAdult();
+//Console.WriteLine(person2.IsAdult());
+
 
 //Console.WriteLine(person1.name);
 //Console.WriteLine(person2.age);
