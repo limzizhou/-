@@ -372,6 +372,7 @@ System.Console.WriteLine(nums[0 , 1]);
 //    }
 //}
 
+/*
 // Constructor 建构方法
 using Animal;
 using System;
@@ -388,8 +389,10 @@ namespace ConsoleApp1
            
             Console.WriteLine(person1.name);
             Console.WriteLine(person1.age);
+            Console.WriteLine(person1.height);
             Console.WriteLine(person2.name);
             Console.WriteLine(person2.age);
+            Console.WriteLine(person2.height);
 
 
         }
@@ -397,3 +400,13 @@ namespace ConsoleApp1
 
     }
 }
+*/
+
+// getter setter
+using ConsoleApp1;
+using System;
+
+Video video1 = new Video("真D舒服", "林某", "哈哈");
+Video video2 = new Video("有那么舒服？", "陈某", "娱乐");
+
+Console.WriteLine(video1.type);
