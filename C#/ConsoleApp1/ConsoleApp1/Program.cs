@@ -409,4 +409,4 @@ using System;
 Video video1 = new Video("真D舒服", "林某", "哈哈");
 Video video2 = new Video("有那么舒服？", "陈某", "娱乐");
 
-Console.WriteLine(video1.type);
+Console.WriteLine(video1.Type);

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// getter setter
 namespace ConsoleApp1
 {
     class Video
@@ -17,13 +18,22 @@ namespace ConsoleApp1
         {
             this.title = title;
             this.author = author;
-            this.type = type;
+            Type = type;
         }
 
         public string Type
         {
             get { return type; }
-            set { }
+            set { 
+                if (value == "教育" || value == "娱乐"  || value == "音乐"  || value == "其他")
+                {
+                    type = value;
+                }
+                else
+                {
+                    type = "其他";
+                }
+            }
         }
 
     }
